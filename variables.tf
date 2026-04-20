@@ -37,3 +37,8 @@ variable "my_ip" {
   description = "Your current IP address for bastion SSH access"
   type        = string
 }
+variable "ami_id" {
+  description = "AMI ID for EC2 instances"
+  type        = string
+  default     = "ami-0b45ae66668865cd6"
+}
